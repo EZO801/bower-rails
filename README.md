@@ -2,7 +2,8 @@
 
 [![Gem Version](https://badge.fury.io/rb/bower-rails.svg)](http://badge.fury.io/rb/bower-rails)
 [![Code Climate](https://codeclimate.com/github/rharriso/bower-rails/badges/gpa.svg)](https://codeclimate.com/github/rharriso/bower-rails)
-[![Dependency Status](https://img.shields.io/gemnasium/SergeyKishenin/bower-rails.svg)][gemnasium]
+[![Dependency Status](https://img.shields.io/gemnasium/SergeyKishenin/bower-rails.svg)][![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEZO801%2Fbower-rails.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FEZO801%2Fbower-rails?ref=badge_shield)
+[gemnasium]
 [![Build Status](https://travis-ci.org/rharriso/bower-rails.svg?branch=master)][travis]
 [![Coverage Status](https://coveralls.io/repos/rharriso/bower-rails/badge.svg?branch=master&service=github)](https://coveralls.io/github/rharriso/bower-rails?branch=master)
 
@@ -327,3 +328,7 @@ The `rake bower:clean` task removes every file that isn't listed in the `main` d
 if the component specifies a `main` directive. Remember that you can extend the `main` directive
 in [ruby DSL configuration](#ruby-dsl-configuration). Otherwise, the library will remain as bower installed it. It supports wildcards
 in files listed in `main` directive.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEZO801%2Fbower-rails.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FEZO801%2Fbower-rails?ref=badge_large)
